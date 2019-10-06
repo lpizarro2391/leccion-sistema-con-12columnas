@@ -1,14 +1,8 @@
-* {
-    box-sizing: border-box;
-}
+
 html {
     font-family: "Lucida Sans", sans-serif;
 }
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
+
 [class*="col-"] {
     float: left;
     padding: 25px;
@@ -26,10 +20,3 @@ html {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
-.contenedor{
-  width: 70%;
-  margin: 60px auto;
-  border: 3px solid red;
-  padding: 5px;
-}
